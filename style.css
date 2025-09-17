@@ -1,11 +1,101 @@
-.navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+body{
+    margin: 0;
+    padding: 0;
 }
 
-.navbar ul{
+.navbar{
     display: flex;
-    text-decoration: none;
+    justify-content: center;
+    background-color: rgb(33, 71, 111);
+    color: white;
+    gap: 200px;
+
+}
+
+.nav-links{
+    display: flex;
     list-style: none;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.box1{
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 h1{
+    color: white;
+}
+
+.box1 p{
+    width: 350px;
+    color: white;
+}
+.box1 button{
+    width: 100px;
+    height: 27px;
+    background-color: rgb(20, 119, 199);
+    border: 0;
+    color: white;
+    border-radius: 5px;
+}
+
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(33, 71, 111);
+    height: 40vh;
+    padding-bottom: 30px;
+    gap: 220px;
+}
+
+.section2{
+    text-align: center;
+    height: 50vh;
+}
+
+.card-container{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+
+}
+
+.card{
+    max-width: 150px;
+}
+
+.image-placeholder{
+    width: 150px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 12px;
+}
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(202, 202, 202);
+}
+
+.container{
+    display: flex;
+    background-color: rgb(27, 140, 227);
+    justify-content: center;
+    border-radius: 3px;
+    width: 10in;
+    height: 150px;
+}
+
+.footer{
+    text-align: center;
 }
